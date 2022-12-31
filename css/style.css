@@ -338,8 +338,8 @@
 }
 
 .sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
+	background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)); 
 	background: red;
 	pointer-events: none;
 	position: absolute
@@ -366,7 +366,12 @@ img {
 		max-width: 30%;
 	}
 }
-
+.decoration{
+	position: sticky;
+    width: 100%; 
+	margin: 0;
+	top: 0;
+}
 .top-right-decoration {
 	position: absolute;
 	top: 0;
@@ -422,7 +427,7 @@ img {
 
 .title p {
 	color: #564861;
-	margin: 30px 0 20px;
+	margin: 10px 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 16px;
@@ -437,7 +442,7 @@ img {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
-	/* padding: 20px; */
+	padding: 20px;
 	text-align: center;
 	/* min-height:100%; */
 }
@@ -458,6 +463,7 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
+	margin: 0px;
 }
 
 .title {
@@ -483,7 +489,16 @@ body {
 	padding: 8px;
 	margin-right: 8px;
 }
-
+.event{
+	/* font-family: 'Poppins', sans-serif; */
+	font-weight: 900;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	/* font-size: 20px; */
+	color: #874562;
+	line-height: 1;
+}
 .venue a {
 	text-decoration: none;
 	color: #fff;
